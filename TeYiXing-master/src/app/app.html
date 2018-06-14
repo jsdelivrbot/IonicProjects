@@ -1,0 +1,24 @@
+<ion-split-pane when="lg">
+
+  <ion-menu side="left" [content]="content">
+    <ion-header>
+      <ion-toolbar class="user-profile nav-transparent">
+        <h4 text-center ion-text class="text-white bold" no-margin>{{ employeeName }}</h4>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content color="primary">
+
+      <ion-list class="user-list">
+        <button ion-item menuClose class="text-1x" *ngFor="let menuItem of appMenuItems" (click)="openPage(menuItem)">
+          <ion-icon item-left [name]="menuItem.icon" color="primary"></ion-icon>
+          <span ion-text color="primary">{{menuItem.title}}</span>
+        </button>
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+
+  <ion-nav main #content [root]="rootPage" swipeBackEnabled="false"></ion-nav>
+
+</ion-split-pane>

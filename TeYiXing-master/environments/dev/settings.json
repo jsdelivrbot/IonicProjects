@@ -1,0 +1,14 @@
+{
+  "apiUrl": "http://test.tehang.com:8003/api",
+  "logging": {
+    "logLevels": [
+      {
+        "loggerName": "root",
+        "logLevel": "TRACE"
+      }
+    ],
+    "browserConsoleAppender": {
+      "threshold": "TRACE"
+    }
+  }
+}
