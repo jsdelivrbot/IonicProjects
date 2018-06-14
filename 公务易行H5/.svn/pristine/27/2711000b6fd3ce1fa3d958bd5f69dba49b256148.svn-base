@@ -1,0 +1,82 @@
+[
+    {
+        "city_code": "BJS",
+        "city_name": "北京-首都",
+        "airport_code": "PEK"
+    },
+    {
+        "city_code": "SHA",
+        "city_name": "上海",
+        "airport_code": "SHA"
+    },
+    {
+        "city_code": "CAN",
+        "city_name": "广州",
+        "airport_code": "CAN"
+    },
+    {
+        "city_code": "SZX",
+        "city_name": "深圳",
+        "airport_code": "SZX"
+    },
+    {
+        "city_code": "XIY",
+        "city_name": "西安",
+        "airport_code": "XIY"
+    },
+    {
+        "city_code": "CKG",
+        "city_name": "重庆",
+        "airport_code": "CKG"
+    },
+    {
+        "city_code": "TAO",
+        "city_name": "青岛",
+        "airport_code": "TAO"
+    },
+    {
+        "city_code": "WUH",
+        "city_name": "武汉",
+        "airport_code": "WUH"
+    },
+    {
+        "city_code": "CSX",
+        "city_name": "长沙",
+        "airport_code": "CSX"
+    },
+    {
+        "city_code": "NKG",
+        "city_name": "南京",
+        "airport_code": "NKG"
+    },
+    {
+        "city_code": "XMN",
+        "city_name": "厦门",
+        "airport_code": "XMN"
+    },
+    {
+        "city_code": "KMG",
+        "city_name": "昆明",
+        "airport_code": "KMG"
+    },
+    {
+        "city_code": "TSN",
+        "city_name": "天津",
+        "airport_code": "TSN"
+    },
+    {
+        "city_code": "CGO",
+        "city_name": "郑州",
+        "airport_code": "CGO"
+    },
+    {
+        "city_code": "SYX",
+        "city_name": "三亚",
+        "airport_code": "SYX"
+    },
+    {
+        "city_code": "HGH",
+        "city_name": "杭州",
+        "airport_code": "HGH"
+    }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name=screen-orientation content=portrait><meta name=apple-mobile-web-app-capable content=yes><meta name=format-detection content="telephone=no"><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><script src=http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js></script><script type=text/javascript>// H5 plus事件处理
+  function plusReady() {
+    // 设置系统状态栏背景为红色
+    plus.navigator.setStatusBarBackground('#e94b31');
+    var Statusbar = plus.navigator.getStatusbarHeight();
+  }
+  if (window.plus) {
+    plusReady();
+  } else {
+    document.addEventListener('plusready', plusReady, false);
+  }
+  document.addEventListener('plusready', function() {
+    var webview = plus.webview.currentWebview();
+    plus.key.addEventListener('backbutton', function() {
+      webview.canBack(function(e) {
+        if (e.canBack) {
+          webview.back();
+        } else {
+          webview.close(); //hide,quit
+          //plus.runtime.quit();
+        }
+      })
+    });
+  });
+  var Intent = null,
+    File = null,
+    Uri = null,
+    main = null;
+  var shares = null;
+  var shareImageUrl = '';
+  document.addEventListener('plusready', function() {
+    updateSerivces();
+    if (plus.os.name == "Android") {
+      Intent = plus.android.importClass("android.content.Intent");
+      File = plus.android.importClass("java.io.File");
+      Uri = plus.android.importClass("android.net.Uri");
+      main = plus.android.runtimeMainActivity();
+    }
+  })
+  /**
+   * 更新分享服务
+   */
+  function updateSerivces() {
+    plus.share.getServices(function(s) {
+      shares = {};
+      for (var i in s) {
+        var t = s[i];
+        shares[t.id] = t;
+      }
+      console.log("获取分享服务列表成功");
+    }, function(e) {
+      console.log("获取分享服务列表失败：" + e.message);
+    });
+  }</script><title>公务易行</title><link href=./static/css/app.253a28dcadb9f2f27ca0b34628351c83.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.bdf067a244661f2716c6.js></script><script type=text/javascript src=./static/js/vendor.ff0e6b5f46403bb5f523.js></script><script type=text/javascript src=./static/js/app.d2419c80898f81d9477e.js></script></body></html>

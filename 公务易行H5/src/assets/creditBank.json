@@ -1,0 +1,425 @@
+[
+{
+"zi": "热",
+"banks": [
+{
+"bankcode": "ICBC",
+"bankname": "工商银行"
+},
+{
+"bankcode": "ABC",
+"bankname": "农业银行"
+},
+{
+"bankcode": "BOC",
+"bankname": "中国银行"
+},
+{
+"bankcode": "CCB",
+"bankname": "建设银行"
+},
+{
+"bankcode": "CMB",
+"bankname": "招商银行"
+},
+{
+"bankcode": "BCOM",
+"bankname": "交通银行"
+},
+{
+"bankcode": "SPDB",
+"bankname": "浦发银行"
+},
+{
+"bankcode": "CITIC",
+"bankname": "中信银行"
+},
+{
+"bankcode": "CIB",
+"bankname": "兴业银行"
+},
+{
+"bankcode": "CMBC",
+"bankname": "民生银行"
+},
+{
+"bankcode": "PAB",
+"bankname": "平安银行"
+},
+{
+"bankcode": "GDB",
+"bankname": "广发银行"
+},
+{
+"bankcode": "PSBC",
+"bankname": "邮储银行"
+},
+{
+"bankcode": "CEB",
+"bankname": "光大银行"
+},
+{
+"bankcode": "HXB",
+"bankname": "华夏银行"
+}
+]
+},
+{
+"zi": "B",
+"banks": [
+{
+"bankcode": "BJRCB",
+"bankname": "北京农商行"
+},
+{
+"bankcode": "BOB",
+"bankname": "北京银行"
+},
+{
+"bankcode": "BSB",
+"bankname": "包商银行"
+},
+{
+"bankcode": "CBHB",
+"bankname": "渤海银行"
+}
+]
+},
+{
+"zi": "C",
+"banks": [
+{
+"bankcode": "CDB",
+"bankname": "承德银行"
+},
+{
+"bankcode": "CDRCB",
+"bankname": "成都农商"
+},
+{
+"bankcode": "CQB",
+"bankname": "重庆银行"
+},
+{
+"bankcode": "CQRCB",
+"bankname": "重庆农商"
+},
+{
+"bankcode": "CSB",
+"bankname": "长沙银行"
+},
+{
+"bankcode": "CSRCB",
+"bankname": "常熟农商行"
+},
+{
+"bankcode": "ZJCZCB",
+"bankname": "稠州商行"
+}
+]
+},
+{
+"zi": "D",
+"banks": [
+{
+"bankcode": "BEA",
+"bankname": "东亚银行"
+},
+{
+"bankcode": "DLB",
+"bankname": "大连银行"
+},
+{
+"bankcode": "DYB",
+"bankname": "东营银行"
+}
+]
+},
+{
+"zi": "F",
+"banks": [
+{
+"bankcode": "FJRCC",
+"bankname": "福建农信"
+}
+]
+},
+{
+"zi": "G",
+"banks": [
+{
+"bankcode": "ICBC",
+"bankname": "工商银行"
+},
+{
+"bankcode": "GDB",
+"bankname": "广发银行"
+},
+{
+"bankcode": "CEB",
+"bankname": "光大银行"
+},
+{
+"bankcode": "GYB",
+"bankname": "贵阳银行"
+},
+{
+"bankcode": "GZCB",
+"bankname": "广州银行"
+},
+{
+"bankcode": "GZRCC",
+"bankname": "广州农商行"
+}
+]
+},
+{
+"zi": "H",
+"banks": [
+{
+"bankcode": "HXB",
+"bankname": "华夏银行"
+},
+{
+"bankcode": "HBB",
+"bankname": "河北银行"
+},
+{
+"bankcode": "HBCB",
+"bankname": "湖北银行"
+},
+{
+"bankcode": "HNRCC",
+"bankname": "湖南农信"
+},
+{
+"bankcode": "HRBB",
+"bankname": "哈尔滨银行"
+},
+{
+"bankcode": "HSB",
+"bankname": "徽商银行"
+},
+{
+"bankcode": "HSBC",
+"bankname": "汇丰银行"
+},
+{
+"bankcode": "HZB",
+"bankname": "杭州银行"
+}
+]
+},
+{
+"zi": "J",
+"banks": [
+{
+"bankcode": "CCB",
+"bankname": "建设银行"
+},
+{
+"bankcode": "BCOM",
+"bankname": "交通银行"
+},
+{
+"bankcode": "JJB",
+"bankname": "九江银行"
+},
+{
+"bankcode": "JSB",
+"bankname": "江苏银行"
+},
+{
+"bankcode": "JYRCB",
+"bankname": "江阴农商行"
+}
+]
+},
+{
+"zi": "L",
+"banks": [
+{
+"bankcode": "LJB",
+"bankname": "龙江银行"
+},
+{
+"bankcode": "LZB",
+"bankname": "兰州银行"
+}
+]
+},
+{
+"zi": "M",
+"banks": [
+{
+"bankcode": "CMBC",
+"bankname": "民生银行"
+},
+{
+"bankcode": "ZJMTCB",
+"bankname": "民泰商行"
+}
+]
+},
+{
+"zi": "N",
+"banks": [
+{
+"bankcode": "ABC",
+"bankname": "农业银行"
+},
+{
+"bankcode": "NBCB",
+"bankname": "宁波银行"
+},
+{
+"bankcode": "NCB",
+"bankname": "南昌银行"
+},
+{
+"bankcode": "NJCB",
+"bankname": "南京银行"
+},
+{
+"bankcode": "NXB",
+"bankname": "宁夏银行"
+}
+]
+},
+{
+"zi": "P",
+"banks": [
+{
+"bankcode": "SPDB",
+"bankname": "浦发银行"
+},
+{
+"bankcode": "PAB",
+"bankname": "平安银行"
+}
+]
+},
+{
+"zi": "Q",
+"banks": [
+{
+"bankcode": "QHB",
+"bankname": "青海银行"
+},
+{
+"bankcode": "QLB",
+"bankname": "齐鲁银行"
+}
+]
+},
+{
+"zi": "S",
+"banks": [
+{
+"bankcode": "SDRCB",
+"bankname": "顺德农商行"
+},
+{
+"bankcode": "SHB",
+"bankname": "上海银行"
+},
+{
+"bankcode": "SRB",
+"bankname": "上饶银行"
+},
+{
+"bankcode": "SRCB",
+"bankname": "上海农商行"
+},
+{
+"bankcode": "YDRCB",
+"bankname": "山西尧都农村商业银行"
+}
+]
+},
+{
+"zi": "T",
+"banks": [
+{
+"bankcode": "TZB",
+"bankname": "台州银行"
+},
+{
+"bankcode": "ZJTLCB",
+"bankname": "泰隆商行"
+}
+]
+},
+{
+"zi": "W",
+"banks": [
+{
+"bankcode": "UCCB",
+"bankname": "乌鲁木齐市商业银行"
+},
+{
+"bankcode": "WFB",
+"bankname": "潍坊银行"
+},
+{
+"bankcode": "WHCCB",
+"bankname": "威海市商行"
+},
+{
+"bankcode": "WJRCB",
+"bankname": "吴江农商行"
+},
+{
+"bankcode": "WXRCB",
+"bankname": "无锡农商行"
+},
+{
+"bankcode": "WZB",
+"bankname": "温州银行"
+}
+]
+},
+{
+"zi": "X",
+"banks": [
+{
+"bankcode": "CIB",
+"bankname": "兴业银行"
+}
+]
+},
+{
+"zi": "Y",
+"banks": [
+{
+"bankcode": "PSBC",
+"bankname": "邮储银行"
+}
+]
+},
+{
+"zi": "Z",
+"banks": [
+{
+"bankcode": "YZB",
+"bankname": "鄞州银行"
+},
+{
+"bankcode": "BOC",
+"bankname": "中国银行"
+},
+{
+"bankcode": "CMB",
+"bankname": "招商银行"
+},
+{
+"bankcode": "CITIC",
+"bankname": "中信银行"
+},
+{
+"bankcode": "CZB",
+"bankname": "浙商银行"
+}
+]
+}
+]

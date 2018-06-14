@@ -1,0 +1,384 @@
+{
+	"@platforms": [
+		"android",
+		"iPhone",
+		"iPad"
+	],
+	"id": "H54A8B9EB",/*应用的标识，创建应用时自动生成，勿手动修改*/
+	"name": "公务易行",/*应用名称，程序桌面图标名称*/
+	"version": {
+		"name": "1.0",/*应用版本名称*/
+		"code": ""
+	},
+	"description": "公务出行",/*应用描述信息*/
+	"icons": {
+		"72": "icon.png"
+	},
+	"launch_path": "index.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"developer": {
+		"name": "",/*开发者名称*/
+		"email": "",/*开发者邮箱地址*/
+		"url": ""
+	},
+	"permissions": {
+		"Accelerometer": {
+			"description": "访问加速度感应器"
+		},
+		
+
+		"Cache": {
+			"description": "管理应用缓存"
+		},
+		
+		"Console": {
+			"description": "跟踪调试输出日志"
+		},
+		"Contacts": {
+			"description": "访问系统联系人信息"
+		},
+		"Device": {
+			"description": "访问设备信息"
+		},
+		"Downloader": {
+			"description": "文件下载管理"
+		},
+		"Events": {
+			"description": "应用扩展事件"
+		},
+		"File": {
+			"description": "访问本地文件系统"
+		},
+		"Gallery": {
+			"description": "访问系统相册"
+		},
+		
+		"Invocation": {
+			"description": "使用Native.js能力"
+		},
+		"Orientation": {
+			"description": "访问方向感应器"
+		},
+		"Proximity": {
+			"description": "访问距离感应器"
+		},
+		"Storage": {
+			"description": "管理应用本地数据"
+		},
+
+		"Uploader": {
+			"description": "管理文件上传任务"
+		},
+		"Runtime": {
+			"description": "访问运行期环境"
+		},
+		"XMLHttpRequest": {
+			"description": "跨域网络访问"
+		},
+		"Zip": {
+			"description": "文件压缩与解压缩"
+		},
+		
+		"Maps": {
+			"description": "管理地图插件"
+		},
+		
+		"Webview": {
+			"description": "窗口管理"
+		},
+		"NativeUI": {
+			"description": "原生UI控件"
+		},
+		"Navigator": {
+			"description": "浏览器信息"
+		},
+		"NativeObj": {
+			"description": "原生对象"
+		},
+		
+		"Share": {}
+	},
+	"plus": {
+		"splashscreen": {
+			"autoclose": true,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
+			"waiting": true
+		},
+		"popGesture": "close",/*设置应用默认侧滑返回关闭Webview窗口，"none"为无侧滑返回功能，"hide"为侧滑隐藏Webview窗口。参考http://ask.dcloud.net.cn/article/102*/
+		"runmode": "normal",/*应用的首次启动运行模式，可取liberate或normal，liberate模式在第一次启动时将解压应用资源（Android平台File API才可正常访问_www目录）*/
+		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保���给应用签名，暂不使用*/
+		"distribute": {
+			"plugins": {
+				"share": {
+					"weixin": {
+						"appid": "wx7a8d72ec71b069f9",
+						"appsecret": "3d16641400fa4d3d091ff6aa6fd13b6b",
+						"description": "可选，微信分享"
+					}
+				},
+				"oauth": {
+					
+				}
+			},
+			"apple": {
+				"appid": "",/*iOS应用标识，苹果开发网站申请的appid，如io.dcloud.HelloH5*/
+				"mobileprovision": "",/*iOS应用打包配置文件*/
+				"password": "",/*iOS应用打包个人证书导入密码*/
+				"p12": "",/*iOS应用打包个人证书，打包配置文件关联的个人证书*/
+				"devices": "universal",/*iOS应用支持的设备类型，可取值iphone/ipad/universal*/
+				"frameworks": []
+			},
+			"google": {
+				"packagename": "",/*Android应用包名，如io.dcloud.HelloH5*/
+				"keystore": "",/*Android应用打包使用的密钥库文件*/
+				"password": "",/*Android应用打包使用密钥库中证书的密码*/
+				"aliasname": "",/*Android应用打包���用密钥库中证书的别名*/
+				"permissions": ["<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>","<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>","<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.READ_LOGS\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>","<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>","<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"]
+			},
+			"orientation": [
+				"portrait-primary"
+			],/*应用支持的方向，portrait-primary：竖屏正方向；portrait-secondary：竖屏反方向；landscape-primary：横屏正方向；landscape-secondary：横屏反方向*/
+			"icons": {
+				"ios": {
+					"prerendered": true, /*应用图标是否已经高亮处理，在iOS6及以下设备上有效*/
+					"auto": "", /*应用图标，分辨率：512x512，用于自动生成各种尺寸程序图标*/
+					"iphone": {
+						"normal": "unpackage/res/icons/57x57.png", /*iPhone3/3GS程序图标，分辨率：57x57*/
+						"retina": "unpackage/res/icons/114x114.png", /*iPhone4程序图标，分辨率：114x114*/
+						"retina7": "unpackage/res/icons/120x120.png", /*iPhone4S/5/6程序图标，分辨率：120x120*/
+						"retina8": "unpackage/res/icons/180x180.png", /*iPhone6 Plus程序图标，分辨率：180x180*/
+						"spotlight-normal": "unpackage/res/icons/29x29.png", /*iPhone3/3GS Spotlight搜索程序图标，分辨率：29x29*/
+						"spotlight-retina": "unpackage/res/icons/58x58.png", /*iPhone4 Spotlight搜索程序图标，分辨率：58x58*/
+						"spotlight-retina7": "unpackage/res/icons/80x80.png", /*iPhone4S/5/6 Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "unpackage/res/icons/29x29.png", /*iPhone4设置页面程序图标，分辨率：29x29*/
+						"settings-retina": "unpackage/res/icons/58x58.png", /*iPhone4S/5/6设置页面程序图标，分辨率：58x58*/
+						"settings-retina8": "unpackage/res/icons/87x87.png"
+					},
+					"ipad": {
+						"normal": "unpackage/res/icons/72x72.png", /*iPad普通屏幕程序图标，分辨率：72x72*/
+						"retina": "unpackage/res/icons/144x144.png", /*iPad高分屏程序图标，分辨率：144x144*/
+						"normal7": "unpackage/res/icons/76x76.png", /*iPad iOS7程序图标，分辨率：76x76*/
+						"retina7": "unpackage/res/icons/152x152.png", /*iPad iOS7高分屏程序图标，分辨率：152x152*/
+						"spotlight-normal": "unpackage/res/icons/50x50.png", /*iPad Spotlight搜索程序图标，分辨率：50x50*/
+						"spotlight-retina": "unpackage/res/icons/100x100.png", /*iPad高分屏Spotlight搜索程序图标，分辨率：100x100*/
+						"spotlight-normal7": "unpackage/res/icons/40x40.png",/*iPad iOS7 Spotlight搜索程序图标，分辨率：40x40*/
+						"spotlight-retina7": "unpackage/res/icons/80x80.png",/*iPad iOS7高分屏Spotlight搜索程序图标，分辨率：80x80*/
+						"settings-normal": "unpackage/res/icons/29x29.png",/*iPad设置页面程序图标，分辨率：29x29*/
+						"settings-retina": "unpackage/res/icons/58x58.png"
+					}
+				},
+				"android": {
+					"mdpi": "unpackage/res/icons/48x48.png", /*普通屏程序图标，分辨率：48x48*/
+					"ldpi": "unpackage/res/icons/48x48.png", /*大屏程序图标，分辨率：48x48*/
+					"hdpi": "unpackage/res/icons/72x72.png", /*高分屏程序图标，分辨率：72x72*/
+					"xhdpi": "unpackage/res/icons/96x96.png",/*720P高分屏程序图标，分辨率：96x96*/
+					"xxhdpi": "unpackage/res/icons/144x144.png",
+					"xxxhdpi": "unpackage/res/icons/192x192.png"
+				}
+			},
+			"splashscreen": {
+				"ios": {
+					"iphone": {
+						"default": "", /*iPhone3启动图片选，分辨率：320x480*/
+						"retina35": "",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+						"retina40": "",/*4.0 英寸设备(iPhone5/iPhone5s)启动图片，分辨率：640x1136*/
+						"retina47": "",/*4.7 英寸设备(iPhone6)启动图片，分辨率：750x1334*/
+						"retina55": "",/*5.5 英寸设备(iPhone6 Plus)启动图片，分辨率：1242x2208*/
+						"retina55l": ""
+					},
+					"ipad": {
+						"portrait": "", /*iPad竖屏启动图片，分辨率：768x1004*/
+						"portrait-retina": "",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
+						"landscape": "", /*iPad横屏启动图片，分辨率：1024x748*/
+						"landscape-retina": "", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
+						"portrait7": "", /*iPad iOS7竖屏启动图��，分辨率：768x1024*/
+						"portrait-retina7": "",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+						"landscape7": "", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+						"landscape-retina7": ""
+					}
+				},
+				"android": {
+					"mdpi": "", /*普通屏启动图片，分辨率：240x282*/
+					"ldpi": "", /*大屏启动图片，分辨率：320x442*/
+					"hdpi": "E:/repo/APP-公务员/01启动页.png", /*高分屏启动图片，分辨率：480x762*/
+					"xhdpi": "E:/repo/APP-公务员/01启动页.png", /*720P高分屏启动图片，分辨率：720x1242*/
+					"xxhdpi": "E:/repo/APP-公务员/01启动页.png"
+				}
+			},
+			"debug": false
+		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"static/js/vendor.809a4036f8692f86e5ee.js",
+					"static/js/app.74437d688ada5df3b2bb.js",
+					"static/js/manifest.30a7e86ff55ee67df595.js",
+					"static/css/app.aeb6dd80f829cbace1ae6220dff387a5.css",
+					"static/js/vendor.5eedb572c6de22f17da5.js",
+					"static/js/app.9afff15d7da602e38959.js",
+					"static/js/manifest.7a6225ea0b2c13651c38.js",
+					"static/css/app.9c37fd0296c69d623155d555dcf8694b.css",
+					"static/js/manifest.f62b9dfdeb7b1082c1af.js",
+					"static/js/app.00d382ec6b659d4d3ee6.js",
+					"static/css/app.831002633c39219720392e58cd00f2f9.css",
+					"static/css/app.8694203899444282838079d8c84d56bc.css",
+					"static/js/app.4a39da285fba35474cbb.js",
+					"static/js/manifest.7d9f9e1907066305148c.js",
+					"static/css/app.72d03a437550c71659e00c880ea1bd7f.css",
+					"static/js/manifest.19a6b04f9a8dfbf8a43c.js",
+					"static/js/app.4c58214c47d2e4c9c724.js",
+					"static/css/app.fbd517b0c03d55942dac10e1d452aaa5.css",
+					"static/js/vendor.f4edd22fcedac4ad9c11.js",
+					"static/js/manifest.f7afc209d5e600c8861e.js",
+					"static/js/app.6db0b7fa5a6cb03233d4.js",
+					"static/js/manifest.83cb519b77b38284d8bc.js",
+					"static/js/app.78ca099f69b3366a414a.js",
+					"static/css/app.33a89544937a545e0a1fd002692012e5.css",
+					"static/js/app.4a47debe2bfaec8272a2.js",
+					"static/js/manifest.d9a0b3acec53995d5d47.js",
+					"static/css/app.023bf36534a2065d4e80d97b892eded7.css",
+					"static/js/manifest.24a63a9a318f44d8b23f.js",
+					"static/js/app.6abd172d686d222cd2dd.js",
+					"static/js/manifest.fa5b11575b051c57b749.js",
+					"static/js/app.7d836b5bdf66a73281f6.js",
+					"static/css/app.080cf68fe49d7e9a5965089a09c15698.css",
+					"static/js/manifest.4ec6dd4350d86aa1bfeb.js",
+					"static/js/vendor.46096573d8a83055c7cb.js",
+					"static/js/app.c8a278cabf641295e0cb.js",
+					"static/js/app.a43231b1e08140c0a66f.js",
+					"static/js/manifest.987499419d3d533f796a.js",
+					"static/js/manifest.14feba29d8f9cabd14a6.js",
+					"static/js/vendor.c947fa7f7d5bd5044ea7.js",
+					"static/js/app.a9537a108610d1458dfd.js",
+					"static/js/app.43ee2289ecabaf153ca0.js",
+					"static/js/manifest.32b69b89dad13ac38e40.js",
+					"static/js/manifest.916a91b90f2c3e01b313.js",
+					"static/js/vendor.9e7f24c3e837fa405eb9.js",
+					"static/css/app.3cff214da1a7b7b41ee0beb6f82b8604.css",
+					"static/js/app.fc8df6ccd6a0f13e12f3.js",
+					"static/js/app.2ca5a0c74f6b3dac6477.js",
+					"static/js/manifest.16e4c13a270d2f1dfccc.js",
+					"static/js/app.4bc25b72605113c49215.js",
+					"static/js/manifest.55021914e4c1cc4aca47.js",
+					"static/js/manifest.3a677a133f9a09bb3376.js",
+					"static/js/app.ae769716be0593cb2003.js",
+					"static/js/manifest.ac25892bbc7b92342afb.js",
+					"static/js/app.e2f7c9afea04a8f2744b.js",
+					"static/js/app.b7e792af69c26bf17f69.js",
+					"static/js/manifest.439ecb03c901551c8321.js",
+					"static/js/manifest.0228612043684aa2e662.js",
+					"static/js/app.b52fb2835db78d38d675.js",
+					"static/js/app.8e4d5ac2c965b906c5b5.js",
+					"static/js/manifest.ebe6597eb4b6f43d8504.js",
+					"static/js/app.4ac8c2d46e2be2bdb62b.js",
+					"static/js/manifest.c014da378d8246098a01.js",
+					"static/js/app.952fcb6213269692ba6b.js",
+					"static/js/manifest.367241a6c45614c93a1c.js",
+					"static/css/app.49af99c2e391ce3284d03f97412114f5.css",
+					"static/js/app.2e9629ea6336e6d784a1.js",
+					"static/js/manifest.01fbe2bf0f7a0c1d8b94.js",
+					"static/js/manifest.3e68a6e4119707361cdd.js",
+					"static/js/app.43e51eca908b14106ec7.js",
+					"static/js/manifest.d03b4236d4891cd3d6c7.js",
+					"static/js/app.0dcd3cd997ac29c05ead.js",
+					"static/js/app.8e3a3c74dcb7be9b96b1.js",
+					"static/js/manifest.b91cc069f318cdb2e54d.js",
+					"static/js/manifest.020fb87580383415b559.js",
+					"static/js/app.f13702f4b33759285285.js",
+					"static/js/manifest.53cace4caa473f34a0a9.js",
+					"static/js/app.b766d47c22d144776274.js",
+					"static/js/app.25ae9467eeacaba0eeec.js",
+					"static/js/manifest.bf85254eae8ca1e18e0b.js",
+					"static/js/manifest.a4dc1bc62b530ace785b.js",
+					"static/js/app.bba6767f4e3931405677.js",
+					"static/js/app.373a54a61c836edfae0d.js",
+					"static/css/app.387c21c17a9382c2d6f9e215c3afedc7.css",
+					"static/js/manifest.f492395d87e969eb43b0.js",
+					"static/js/manifest.05ff410a4e781cf3cd9b.js",
+					"static/js/app.8c1db441e7f818f0ff37.js",
+					"static/js/manifest.b84539b6bc6edcd3fd75.js",
+					"static/js/app.af40d741d703496fb680.js",
+					"static/css/app.c70adaf8fa0a9ce4f02111f747968890.css",
+					"static/css/app.0262786f54c93692883e371243aaeda1.css",
+					"static/js/manifest.ce7653207ec709362165.js",
+					"static/js/app.f824898cf99b97e2b0cf.js",
+					"static/js/app.0bd7b5e7af2125d0c474.js",
+					"static/js/manifest.03c91f6c4beb784d4d7b.js",
+					"static/js/manifest.585723583adecfd4ff8f.js",
+					"static/css/app.5756e371b9a12141066beceda83ec22e.css",
+					"static/js/app.7fb32e9b7d692c6bc0b7.js",
+					"static/js/manifest.16a8bd14219bbd5c4a7b.js",
+					"static/js/app.9d9443bdfce801c90400.js",
+					"static/js/app.d0e66b1d217a7b519f99.js",
+					"static/js/manifest.6fab004daee6e478e98d.js",
+					"static/js/manifest.d7dfb303acf7baae0f1e.js",
+					"static/js/app.626c541e1ee7d4352cf4.js",
+					"static/js/app.4a13b59d76f1020481e1.js",
+					"static/js/manifest.3bd865da202389546872.js",
+					"static/js/vendor.fadcca6b295bccca554f.js",
+					"static/js/manifest.4c2d6bfbe2edf7835a29.js",
+					"static/js/app.b27cb1cc323ca27e001b.js",
+					"static/css/app.182607eb6fcfce93304511cc8b7ed704.css",
+					"static/js/manifest.7737033c5a0044738e7c.js",
+					"static/js/app.a86d8600006dbc65c88e.js",
+					"static/js/manifest.4f3227bc1eca089aa928.js",
+					"static/css/app.a4e6358c349383e0fd7745adc45f31df.css",
+					"static/js/app.e3cfd98681b574cf1ba2.js",
+					"static/js/manifest.723781adc6831591f8d2.js",
+					"static/js/app.874c2c154121945f1143.js",
+					"static/css/app.1bedce0fda1e71b1bfc72f9c3a11d315.css",
+					"static/js/app.ddd2a9c6be3975c1dae5.js",
+					"static/js/manifest.8647a61d4e8690ea167e.js",
+					"static/css/app.07ee84f6b28e0efc980480cdb7d54ad4.css",
+					"static/css/app.4d0ad8f38bae1d373b1bec1872f904d0.css",
+					"static/js/app.81a1deabcacfaec83670.js",
+					"static/js/manifest.efe60d4bacd19631d54f.js",
+					"static/js/vendor.98166f10d74847dcb43c.js",
+					"static/css/app.73a68bfdc7f4c72fa048f9545ce1bc5b.css",
+					"static/js/app.10d569cd784a2bc4c781.js",
+					"static/js/manifest.3bfd9e388ad75681cc66.js",
+					"static/js/vendor.92b90de371f38a7cf29b.js",
+					"static/js/app.9cebf34675c13f8501fe.js",
+					"static/js/manifest.9c19114425be919960be.js",
+					"static/css/app.51d5cf7bac4b2b274de7da9e039af5ba.css",
+					"static/js/manifest.b04628c3eb9ae0b93cf3.js",
+					"static/js/app.bc9fbdb2c055e9b9a3ab.js",
+					"static/js/vendor.2d3fb3995119f958ca5a.js",
+					"static/css/app.0afe1a4dea9da8e3014fbb7374c57e00.css",
+					"static/js/app.0b233f27f9cf477a1bfe.js",
+					"static/css/app.ebd0bd14115902117797517a8b3a750b.css",
+					"static/js/vendor.a2ac349b311bff19ce4b.js",
+					"static/js/manifest.6d24ae7d96059b1d11c5.js"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"static/img/01-normal.8a8ff2c.png",
+				"static/img/home_bg.9fccf29.png",
+				"static/img/dingdan_bg.d51f60b.png",
+				"static/img/W1.23134e8.png",
+				"static/img/topay.0e0cac6.png",
+				"static/img/03-disable.d51de08.png",
+				"static/img/T4.acf5bf1.png",
+				"static/js/app.74437d688ada5df3b2bb.js.map",
+				"static/img/02-disable.2059e35.png",
+				"static/img/blue_bd.05b15bd.png",
+				"static/img/04-disable.e789fdf.png",
+				"static/img/namerule.dbbe3d8.png",
+				"static/js/vendor.809a4036f8692f86e5ee.js.map",
+				"static/img/logo.bd06f1f.png",
+				"static/img/loading.c3ce854.gif",
+				"static/js/manifest.30a7e86ff55ee67df595.js.map",
+				"static/img/H6.0cf9107.png",
+				"static/img/index_air.e801c9c.png",
+				"static/img/xiang_bg.6c13a48.png",
+				"static/css/app.aeb6dd80f829cbace1ae6220dff387a5.css.map",
+				"static/img/index_search.61c13f2.png"
+			]
+		}
+	},
+	"fullscreen": false
+}
